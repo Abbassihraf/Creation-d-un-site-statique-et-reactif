@@ -7,7 +7,7 @@ body {
     font-family: 'segoe ui';
 }
 
-.container{
+.container {
     padding-left: 16rem;
     padding-right: 16rem;
 }
@@ -57,12 +57,11 @@ body {
     font-weight: 600;
 }
 
-
 .nav > #nav-check {
     display: none;
 }
 
-.nav > .nav-links > .active{
+.nav > .nav-links > .active {
     color: #E8491D;
     font-weight: bold;
 }
@@ -132,7 +131,7 @@ body {
     height: 700px;
 }
 
-.header > .container{
+.header > .container {
     padding-top: 10rem;
 }
 
@@ -147,23 +146,63 @@ body {
     margin: auto;
 }
 
-@media (min-width:0px) and (max-width:580px){
+@media (min-width:0px) and (max-width:580px) {
     .header {
         height: 320px;
     }
-    .header h1{
+    .header h1 {
         font-size: 24px;
     }
-    .header > .container{
+    .header > .container {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 3rem;
     }
-    .header p{
+    .header p {
         font-size: 16px;
         width: 100%;
     }
 }
 
-
 /* Header */
+
+/* Newsletter */
+
+#newsletter {
+    background-color: #35424A;
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.newsletter h1 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.newsletter form {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.newsletter input[type="email"] {
+    padding: 4px;
+    height: 40px;
+    width: 250px;
+}
+.button__newsletter {
+    height: 40px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Newsletter */
