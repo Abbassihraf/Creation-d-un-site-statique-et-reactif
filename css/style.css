@@ -227,3 +227,35 @@ body {
 }
 
 /* Newsletter */
+
+/* Services section */
+
+#services{
+    background-color: #F4F4F4;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.services .box img{
+    display: block;
+    margin: auto;
+    width: 32%;
+}
+
+.services .box h1{
+    text-align: center;
+}
+
+.services .box p{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Services section */
