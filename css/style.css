@@ -205,4 +205,25 @@ body {
     cursor: pointer;
 }
 
+@media (min-width:0px) and (max-width:580px) {
+    .newsletter {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: max-content max-content;
+    }
+    #newsletter .container {
+        padding: 1rem 2rem 2rem;
+    }
+    .newsletter h1{
+        text-align: center;
+        font-size: 22px;
+    }
+    .newsletter form{
+        margin: auto;
+    }
+    .newsletter input[type="email"]{
+        width: 184px;
+    }
+}
+
 /* Newsletter */
