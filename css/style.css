@@ -182,6 +182,7 @@ body {
 .newsletter h1 {
     color: white;
     text-transform: capitalize;
+    font-size: 32px;
 }
 
 .newsletter form {
@@ -234,24 +235,24 @@ body {
     background-color: #F4F4F4;
 }
 
-.services{
+.service{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
-.services .box img{
+.service .box img{
     display: block;
     margin: auto;
     width: 32%;
 }
 
-.services .box h1{
+.service .box h1{
     text-align: center;
 }
 
-.services .box p{
+.service .box p{
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -262,7 +263,7 @@ body {
     #services .container {
         padding: 1rem 2rem;
     }
-    .services{
+    .service{
         display: grid;
         grid-template-columns: 100%;
         grid-gap: 32px;
@@ -284,3 +285,37 @@ footer{
 }
 
 /* Footer */
+
+
+/* About page */
+
+#about{
+    background-color: #F4F4F4;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about h1{
+    text-transform: capitalize;
+}
+
+.about p{
+    font-size: 22px;
+
+    line-height: 1.6em;
+}
+
+.dark{
+    background-color: #35424A;
+    color: white;
+    padding: 1rem;
+    height: max-content;
+}
+
+/* About page */
