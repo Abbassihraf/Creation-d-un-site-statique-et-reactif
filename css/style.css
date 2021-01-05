@@ -386,6 +386,20 @@ footer{
 }
 
 
+@media (min-width:0px) and (max-width:580px){
+    #service .container {
+        padding: 1rem 2rem;
+    }
+    .service__page{
+        display: grid;
+        grid-template-columns: 100%;
+    }
 
+    .service__right {
+        grid-area: 2/1;
+    }
 
+    #service p {
+        text-align: justify;
+    }
 /* Services page */
