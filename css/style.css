@@ -318,4 +318,16 @@ footer{
     height: max-content;
 }
 
+@media (min-width:0px) and (max-width:580px){
+    #about .container {
+        padding: 1rem 2rem;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .about p {
+        text-align: justify;
+    }
+}
 /* About page */
